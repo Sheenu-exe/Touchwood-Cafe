@@ -227,7 +227,7 @@ footer{
     .home{
         display: flex;
         flex-direction: column;
-        height:90vh;
+        height:85vh;
     }
     div.text{
         width:100%
