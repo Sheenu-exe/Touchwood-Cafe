@@ -1,0 +1,281 @@
+@font-face {
+    font-family: myFont;
+    src: url(fonts/Vultura\ Regular.ttf);
+}
+@font-face {
+    font-family: Sud;
+    src: url(fonts/Sud.otf);
+}
+@font-face {
+    font-family: kobe;
+    src: url(fonts/kobe11-regular.ttf);
+}
+body{
+    background-color: #fde0c1;
+}
+.container-fluid{
+    overflow: hidden;
+    position: sticky;
+    background:linear-gradient(90deg, rgba(139,96,61,1) 0%, rgba(144,100,64,1) 100%); ;
+}
+
+body{
+    background:#ffffff
+}
+.home{
+    height:100vh;
+    background:url(img/image-from-rawpixel-id-2620417-jpeg.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    display:flex;
+    flex-direction: row;
+}
+.text{
+    width:50%;
+}
+a.navbar-brand{
+    color:black;
+    font-weight:bold;
+    font-family: Sud;
+}
+a.navbar-brand:hover{
+    color:black
+}
+a.nav-link{
+    font-family:Sud;
+    color:black;
+    display: block;
+    float: left;
+}
+a.nav-link:active{
+    color: black;
+}
+.navbar-custom{
+    background-color: #ffffff;
+    padding:0
+}
+.hero-text{
+    font-family: Sud;
+    background-color: #ffffff00;
+    font-size: 4.0rem;
+    color:black;
+    margin:10px;
+    margin-top: 15rem;
+    
+}
+.text{
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
+.img{
+    width: 50%;
+    margin:10px;
+    margin-right:90px;
+    transition: transform .5s ease-in-out;
+}
+.sipper{
+    margin:10%;
+    width: 550px;
+}
+.sipper:hover{
+    transition: transform .5s ease-in-out ;
+        transform: scale(1.1)  rotate(5deg);
+}
+.sipper{
+    transition: transform .5s ease-in-out;
+        transform: scale(1.0)  rotate(-5deg);
+}
+h1>p{
+    font-size: 30px;
+    font-family:myFont;
+    margin-left:10px;
+}
+/*About us page*/
+.About-us{
+    height: 100vh;
+    background:linear-gradient(90deg, rgba(139,96,61,1) 0%, rgba(144,100,64,1) 100%); ;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 100%;
+}
+.text2, .images{
+    width: 50%;
+}
+.text2>h2{
+   align-items: center;
+   text-align: center;
+   margin-top: 35px;
+   font-family: Sud;
+   font-size: 45px;
+   color: white;
+   
+}
+.desc{
+    font-size: 17px;
+    margin:15px;
+    color: white;
+    
+    font-family: kobe;
+}
+.images{
+    width: 50%;
+    margin:10px;
+    margin-right:90px;
+    justify-content: center;
+    align-content: center;
+}
+.png{
+    margin:20%;
+    width: 450px;
+    justify-content: center;
+}
+.info{
+    height: 15vh;
+   background: #fde0c1;
+}
+.info{
+    justify-content: center;
+}
+marquee{
+    margin-top:2rem;
+    width: 100%;
+    font-size: 30px;
+    font-family: kobe;
+}
+.card-group{
+    margin:2rem;
+}
+.products{
+    height:110vh;
+    display: flex;
+    flex-direction: column;
+   margin:0;
+    background-color: #fde0c1;
+}
+.title2{
+    margin: 0;
+    padding:20px;
+    padding-top:40px;
+    margin:0;
+    align-items: center;
+    text-align: center;
+    font-family: Sud;
+    font-size: 45px;
+    color: black;
+    background-color: #fde0c1;
+}
+.product{
+    background-color: #fde0c1;
+}
+#cd1{
+    margin-top:0
+}
+#cd2{
+    margin-bottom: 0;
+}
+.line{
+    margin: 0;
+    padding:20px;
+    margin:0;
+    align-items: center;
+    text-align: center;
+    font-family: myFont;
+    font-size: 25px;
+    color: black;
+    background-color: #fde0c1;
+}
+.address{
+    background-color: #FFC26F;
+    height:90vh;
+}
+.add{
+    margin: 0;
+    padding:20px;
+    padding-top:40px;
+    margin:0;
+    align-items: center;
+    text-align: center;
+    font-family: Sud;
+    font-size: 45px;
+}
+.map{
+    margin:0 15%
+}
+footer{
+    height:15vh;
+    background-color: #110a09;
+}
+.cont{
+    font-size: 30px;font-family: kobe
+}
+.foot{
+    margin: 0;
+    padding:20px;
+    padding-top:40px;
+    margin:0;
+    align-items: center;
+    text-align: center;
+    color: #fde0c1;
+}
+@media screen and (max-width:450px){
+    .home{
+        display: flex;
+        flex-direction: column;
+        height:90vh;
+    }
+    div.text{
+        width:100%
+    }
+    .hero-text{
+        font-size: 50px;
+        text-align: center;
+        margin-top:40px;
+    }
+    .hero-text>p{
+        font-size:20px
+    }
+    .sipper{
+        width:350px;
+        margin:30px 210px 0 10px;
+        }
+        .About-us{
+            display: flex;
+            flex-direction: column;
+            height:65vh
+        }
+        span{ 
+           display: none;
+        }
+        .desc{
+            font-size: 20px;
+          margin-right:30px;
+            margin-top: 35px;
+            width: 100%;
+            text-align: center;
+        }
+        .images{
+            display: none;
+        }
+        .text2{
+            width:90%;
+        }
+        .text2>h2{
+            margin-left:40px
+        }
+        .info{
+            height: 10vh;
+        }
+        marquee{
+            margin-top:1rem;
+        }
+        .address{
+            height:100vh
+        }
+        
+    }
